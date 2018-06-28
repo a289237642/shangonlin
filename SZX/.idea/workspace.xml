@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d212b56e-90c6-4412-95df-6cb02e0d880c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helptools/6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d212b56e-90c6-4412-95df-6cb02e0d880c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,8 +151,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="45" />
+    <option name="x" value="124" />
+    <option name="y" value="35" />
     <option name="width" value="1792" />
     <option name="height" value="830" />
   </component>
@@ -172,16 +168,6 @@
             <path>
               <item name="SZX" type="b2602c69:ProjectViewProjectNode" />
               <item name="SZX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SZX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SZX" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SZX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SZX" type="462c0819:PsiDirectoryNode" />
-              <item name="helptools" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,10 +247,18 @@
       <option name="presentableId" value="Default" />
       <updated>1528865618770</updated>
     </task>
+    <task id="LOCAL-00001" summary="110">
+      <created>1530165631364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530165631364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="45" width="1792" height="830" extended-state="0" />
+    <frame x="124" y="35" width="1792" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -318,6 +312,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="110" />
+    <option name="LAST_COMMIT_MESSAGE" value="110" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
