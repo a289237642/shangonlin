@@ -92,8 +92,8 @@
       <file leaf-file-name="6.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helptools/6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -114,6 +114,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -254,11 +257,25 @@
       <option name="project" value="LOCAL" />
       <updated>1530165631364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="110&#10;120">
+      <created>1530165835369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530165835369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="110&#10;120">
+      <created>1530165894637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530165894637</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="35" width="1792" height="830" extended-state="0" />
+    <frame x="124" y="35" width="1792" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -315,7 +332,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="110" />
-    <option name="LAST_COMMIT_MESSAGE" value="110" />
+    <MESSAGE value="110&#10;120" />
+    <option name="LAST_COMMIT_MESSAGE" value="110&#10;120" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helptools/6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
