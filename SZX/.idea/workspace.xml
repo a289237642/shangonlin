@@ -432,21 +432,35 @@
       <option name="project" value="LOCAL" />
       <updated>1530171329468</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="机构列表">
+      <created>1530175750731</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530175750731</updated>
+    </task>
+    <task id="LOCAL-00012" summary="机构列表">
+      <created>1530175807191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1530175807191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="11" width="1792" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005365" side_tool="true" weight="0.32997763" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.18869936" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.19798657" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946353" weight="0.13432837" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32784432" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15290698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14109442" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -499,7 +513,8 @@
     <MESSAGE value="77" />
     <MESSAGE value="7777" />
     <MESSAGE value="1101" />
-    <option name="LAST_COMMIT_MESSAGE" value="1101" />
+    <MESSAGE value="机构列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="机构列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
