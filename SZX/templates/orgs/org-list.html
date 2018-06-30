@@ -33,7 +33,7 @@
                             <div class="more">更多</div>
                             <div class="cont">
                                 <a href="?ct="><span class="active2">全部</span></a>
-                                {% for city in page_list %}
+                                {% for city in all_citys %}
                                     <a href="?city=1&ct="><span class="">{{ city.name }}</span></a>
                                 {% endfor %}
                             </div>
@@ -50,7 +50,7 @@
                                 <li class=""><a href="?sort=courses&ct=&city=">课程数 &#8595;</a></li>
                             </ul>
                         </div>
-                        {% for org in all_orgs %}
+                        {% for org in page_list %}
                             <dl class="des difdes">
                                 <dt>
                                     <a href="org-detail-homepage.html">

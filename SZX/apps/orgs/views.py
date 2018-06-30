@@ -26,4 +26,5 @@ class OrgListView(View):
             'all_citys': all_citys,
             'sort_orgs': sort_orgs,
             'page_list': page_list,
+            'pagenum': pagenum,
         })
