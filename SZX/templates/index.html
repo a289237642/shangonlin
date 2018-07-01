@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load staticfiles %}
 {% block title %}Home Page{% endblock %}
 {% block content %}
  <div class="banner">
@@ -6,38 +7,13 @@
 				<div class="fl">
 					<div class="imgslide">
 						<ul class="imgs">
-
+{% for banner in all_banners %}
                             <li>
                                     <a href="http://www.imooc.com">
-                                        <img width="1200" height="478" src="../media/banner/2016/11/57a801860001c34b12000460.jpg" />
+                                        <img width="1200" height="478" src="{{ MEDIA_URL }}{{ banner.image }}" />
                                     </a>
                                 </li>
-
-                            <li>
-                                    <a href="http://www.projectsedu.com">
-                                        <img width="1200" height="478" src="../media/banner/2016/11/57aa86a0000145c512000460.jpg" />
-                                    </a>
-                                </li>
-
-                            <li>
-                                    <a href="http://www.projectsedu.com">
-                                        <img width="1200" height="478" src="../media/banner/2016/11/57a801860001c34b12000460_z4Vb8zl.jpg" />
-                                    </a>
-                                </li>
-
-                            <li>
-                                    <a href="http://www.projectsedu.com">
-                                        <img width="1200" height="478" src="../media/banner/2016/11/57aa86a0000145c512000460_nMwvoQD.jpg" />
-                                    </a>
-                                </li>
-
-                            <li>
-                                    <a href="http://www.projectsedu.com">
-                                        <img width="1200" height="478" src="../media/banner/2016/11/57aa86a0000145c512000460_GXIBATC.jpg" />
-                                    </a>
-                                </li>
-
-
+{% endfor %}
 						</ul>
 					</div>
 					<div class="unslider-arrow prev"></div>
@@ -52,19 +28,19 @@
 		<div class="wp">
 			<ul class="feature">
 				<li class="feature1">
-					<img class="pic" src="../images/feature1.png"/>
+					<img class="pic" src="{% static 'images/feature1.png' %}"/>
 					<p class="center">专业权威</p>
 				</li>
 				<li class="feature2">
-					<img class="pic" src="../images/feature2.png"/>
+					<img class="pic" src="{% static 'images/feature2.png' %}"/>
 					<p class="center">课程最新</p>
 				</li>
 				<li class="feature3">
-					<img class="pic" src="../images/feature3.png"/>
+					<img class="pic" src="{% static 'images/feature3.png' %}"/>
 					<p class="center">名师授课</p>
 				</li>
 				<li class="feature4">
-					<img class="pic" src="../images/feature4.png"/>
+					<img class="pic" src="{% static 'images/feature4.png' %}"/>
 					<p class="center">数据真实</p>
 				</li>
 			</ul>

@@ -11,6 +11,23 @@ class OrgListView(View):
         all_orgs = OrgInfo.objects.all()
         all_citys = CityInfo.objects.all()
 
+        # 根据类别过滤
+        cat = request.GET.get('cat', '')
+        if cat:
+            all_orgs = all_orgs.filter(category=cat)
+
+        # 根据城市过滤
+        cityid = request.GET.get('cityid', '')
+        if cityid:
+            all_orgs = all_orgs.filter(cityinfo_id=int(cityid))
+
+        # 排序
+        sort = request.GET.get('sort', '')
+        if sort == 'studynum':
+            all_orgs = all_orgs.order_by('-study_num')
+        if sort == 'coursenum':
+            all_orgs = all_orgs.order_by('-course_num')
+
         pagenum = request.GET.get('pagenum', '')
         pa = Paginator(all_orgs, 3)
         try:
@@ -27,4 +44,7 @@ class OrgListView(View):
             'sort_orgs': sort_orgs,
             'page_list': page_list,
             'pagenum': pagenum,
+            'sort': sort,
+            'cat': cat,
+            'cityid': cityid
         })

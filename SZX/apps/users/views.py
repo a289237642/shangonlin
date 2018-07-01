@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse
 from .forms import UserRegisterForm, UserLoginForm, UserForgetForm, UserResetForm
 from django.db.models import Q
-from .models import UserProfile, EmailVerify
+from .models import UserProfile, EmailVerify, Banner
 from helptools.send_mail_tool import send_email_verify
 from django.contrib.auth import authenticate, logout, login
 from operations.models import UserMessageInfo
@@ -12,7 +12,9 @@ from django.views import View
 # Home Page
 class IndexView(View):
     def get(self, request):
-        return render(request, 'index.html')
+        all_banners = Banner.objects.all().order_by("-add_time")[:5]
+        return render(request, 'index.html',
+                      {'all_banners': all_banners})
 
 
 # register
