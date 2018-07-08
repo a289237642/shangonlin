@@ -46,5 +46,5 @@ class OrgListView(View):
             'pagenum': pagenum,
             'sort': sort,
             'cat': cat,
-            'cityid': cityid
+            'cityid': cityid,
         })
